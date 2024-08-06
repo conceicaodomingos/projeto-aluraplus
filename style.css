@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-fundo: #00030C;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+}
