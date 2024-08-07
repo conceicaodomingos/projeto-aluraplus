@@ -39,6 +39,7 @@ section.principal {
 
 .container__caixa {
     margin: 0 6em;
+    padding: .1em;
 }
 
 .container__titulo {
@@ -110,8 +111,23 @@ section.principal {
     margin-top: 1em;
 }
 
-div#telas {
+.dispositivos {
+    text-align: center;
+}
 
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5em 0;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+}
+
+.lista__item {
+    font-size: 32px;
 }
 
 div#download {
